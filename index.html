@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        .navbar {
+            height: 80px; 
+            background-color: #007bff; 
+        }
+
+        .navbar-nav {
+            margin-left: auto; 
+        }
+
+        .nav-item {
+            margin-right: 30px; 
+        }
+
+        .nav-link {
+            padding: 0.5rem 1rem;
+            color: #ffffff; 
+        }
+
+        .nav-link:hover {
+            color: #f8f9fa; 
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Image overlay */
+        .image-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .image-section img {
+            width: 50%; /* Set image width to cover half of the container */
+        }
+
+        .section-content {
+            width: 45%; /* Set content width to cover remaining half of the container */
+            padding: 20px;
+        }
+
+        /* Button styling */
+        .btn-custom {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+					<a href="E-Library2.html">
+                    <button class="btn btn-primary">Get Started</button>
+                    </a> 
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <div class="container">
+            <div id="home" class="image-section">
+                <img src="https://res.cloudinary.com/dcwrp6n69/image/upload/v1707699936/2008.i504.008_isometric_online_library_set-10_mlcxg9.jpg" alt="E-Library Image">
+                <div class="section-content">
+                    <h2>Welcome to E-Library</h2>
+                    <p>An E-Library is a digital library offering access to a wide range of digital content, including e-books, audiobooks, articles, and more. It provides users with the convenience of accessing resources online from anywhere at any time.</p>
+                    <a href="E-Library2.html"><button class="btn btn-primary btn-custom">Get Started</button></a>
+                    <button class="btn btn-primary btn-custom">Watch Video</button>
+                </div>
+            </div>
+            <section id="about" class="image-section">
+                <div class="section-content">
+                    <h2>About E-Library</h2>
+                    <p>An E-Library, or electronic library, is a digital collection of resources like e-books, articles, and audiobooks accessible online. E-Libraries offer convenient access to a wide range of materials, promoting easy learning and information access from anywhere at any time.</p>
+                    <p>Key features include:</p>
+                    <ul>
+                        <li>24/7 accessibility: Access resources anytime, anywhere with an internet connection.</li>
+                        <li>Wide content range: Explore diverse materials catering to different interests and needs.</li>
+                        <li>User-friendly tools: Easily search, navigate, and personalize your reading experience.</li>
+                        <li>Accessibility options: Features like text-to-speech and adjustable fonts accommodate diverse user needs.</li>
+                        <li>Cost-effective: Enjoy cost savings compared to traditional book purchases or subscriptions.</li>
+                    </ul>
+                </div>
+                <img src="https://res.cloudinary.com/dcwrp6n69/image/upload/v1707748730/2008.i504.008_isometric_online_library_set-05_wld2mm.jpg" alt="About Image">
+            </section>
+            <section id="services" class="section-content">
+                <h2>Services</h2>
+                <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+            </section>
+            <section id="portfolio" class="section-content">
+                <h2>Portfolio</h2>
+                <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+            </section>
+            <section id="contact" class="section-content">
+                <h2>Contact</h2>
+                <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-P7yEXM1rliJlcm7+3lCk9jqHz0lg2mqz5YHxxM6yXO3bvhG4givKIVw6+yukzB5H" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
